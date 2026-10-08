@@ -25,7 +25,7 @@ elif x == 0 and y != 0:
 #3
 print('Задание 3')
 x = int(input("Введите x: "))
-if x > 999 and x < 1:
+if x > 999 or x < 1:
     print("Ошбика условия")
 else:
     if x % 2 == 0:
